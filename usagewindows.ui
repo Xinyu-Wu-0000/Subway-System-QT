@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UsageWindows</class>
+ <widget class="QMainWindow" name="UsageWindows">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>购票指南</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/images/icon.png</normaloff>:/images/icon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background:white</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;本系统购票方式： &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1. 通过地图查询窗口查询站点线路信息 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2. 在购票窗口输入起始站和终点站及票数，选择或确认线路并付款 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注意事项： &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1. 单程票仅在售出站当日乘车有效，逾期为废票，车站予以回收（当日指售出运营日）。单程票出闸时应当交还运营单位，不予交还的，运营单位有权收回车票并按无效车票处理。 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2. 携带重量大于20公斤且不超过30公斤的物品，或者外部尺寸长宽高之和大于1.4米且不超过1.6米的物品乘车的，需到客服中心购买与普通车厢车资等额的行李票（享受免费乘车优惠政策及乘坐商务车厢的乘客无需购买行李票）；重量超过30公斤或者外部尺寸长宽高之和超过1.6米的物品，一律不得进站乘车。 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;3. 乘客应当持对应所乘区间和车厢种类的有效车票进站乘车，并在规定时限内出闸（按照规定可以免费乘车的除外）。 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;4. 乘客进出闸时，实行“一人一卡（码）、一进一出”的使用规则，即乘客须用同一张卡（码）进出闸机，不可一卡（码）多人使用。 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;5. 车站客服中心不办理深圳通卡和全国交通一卡通（本市发行、异地发行）的退、换卡业务。深圳通卡和本市发行的全国交通一卡通的退、换卡业务需到深圳通指定网点办理（具体参见深圳通公司相关使用规定）。 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;6. 需索取发票的乘客，凭车票在出闸前到客服中心领取本次所乘车程的等额发票，或通过深圳地铁APP、港铁深圳live+小程序、腾讯乘车码小程序、微信支付通知等开票入口按乘车记录开具电子发票。深圳通卡、本市发行的全国交通一卡通充值可通过深圳通官网、深圳通官方APP、深圳市民通APP、深圳通自助充值售卡终端等方式领取电子发票，乘坐地铁时不再提供纸质发票。具体可咨询车站工作人员。 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;7. 全国交通一卡通存在异地不完整交易时，须在不完整交易发生地处理后，方可继续使用。深圳市暂不提供异地不完整交易的客服处理。 &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;8. 乘客持金融IC卡乘车，采用预授权交易，应确保卡内余额或可用额度不低于线网最高普通单程票价。如因乘客账户余额或可用额度不足导致扣款异常的，系统将限制该乘客乘车功能。&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; 9. 乘客使用深圳市地铁乘车码、深圳通乘车码进出闸时，如未遵循“一进一出”的使用规则，导致进出站信息不完整的，系统将会提示乘客自助补登记乘车信息，如乘客逾期未补登，系统将按照轨道交通线网票务规则扣除相应车资。如因恶意行为多次产生不完整乘车记录，将会影响乘客后续乘车和乘客的个人信用。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
